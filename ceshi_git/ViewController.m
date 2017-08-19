@@ -26,6 +26,12 @@
     
     self.num = a+b;
     NSLog(@"The result is: %d", self.num);
+    
+    [self sayByeBye];
+}
+
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 - (void)didReceiveMemoryWarning {
