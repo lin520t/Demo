@@ -28,9 +28,14 @@
     NSLog(@"The result is: %d", self.num);
 }
 
+-(void)sayHello{
+    NSLog(@"Hello");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    [self sayHello];
 }
 
 @end
