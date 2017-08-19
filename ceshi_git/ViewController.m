@@ -10,13 +10,21 @@
 
 @interface ViewController ()
 
+@property(nonatomic) int num;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additionalsetup after loading the view, typically from a nib.
+
+    int a = 5;
+    int b = 10;
+    
+    self.num = a+b;
+    NSLog(@"The result is: %d", self.num);
 }
 
 - (void)didReceiveMemoryWarning {
