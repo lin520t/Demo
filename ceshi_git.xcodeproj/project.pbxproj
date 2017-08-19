@@ -15,6 +15,7 @@
 		1D4A97531F47D720005CB2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4A97511F47D720005CB2B1 /* LaunchScreen.storyboard */; };
 		1D4A975E1F47D720005CB2B1 /* ceshi_gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4A975D1F47D720005CB2B1 /* ceshi_gitTests.m */; };
 		1D4A97691F47D720005CB2B1 /* ceshi_gitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4A97681F47D720005CB2B1 /* ceshi_gitUITests.m */; };
+		1D4A97781F47DEA2005CB2B1 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4A97771F47DEA2005CB2B1 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1D4A97641F47D720005CB2B1 /* ceshi_gitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshi_gitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4A97681F47D720005CB2B1 /* ceshi_gitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshi_gitUITests.m; sourceTree = "<group>"; };
 		1D4A976A1F47D720005CB2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4A97761F47DEA2005CB2B1 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		1D4A97771F47DEA2005CB2B1 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1D4A97471F47D720005CB2B1 /* AppDelegate.m */,
 				1D4A97491F47D720005CB2B1 /* ViewController.h */,
 				1D4A974A1F47D720005CB2B1 /* ViewController.m */,
+				1D4A97761F47DEA2005CB2B1 /* TestClass.h */,
+				1D4A97771F47DEA2005CB2B1 /* TestClass.m */,
 				1D4A974C1F47D720005CB2B1 /* Main.storyboard */,
 				1D4A974F1F47D720005CB2B1 /* Assets.xcassets */,
 				1D4A97511F47D720005CB2B1 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4A97781F47DEA2005CB2B1 /* TestClass.m in Sources */,
 				1D4A974B1F47D720005CB2B1 /* ViewController.m in Sources */,
 				1D4A97481F47D720005CB2B1 /* AppDelegate.m in Sources */,
 				1D4A97451F47D720005CB2B1 /* main.m in Sources */,

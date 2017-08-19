@@ -11,6 +11,7 @@
 @interface ViewController ()
 
 @property(nonatomic) int num;
+@property(nonatomic, strong) TestClass *testClass;
 
 @end
 
