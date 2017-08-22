@@ -12,6 +12,7 @@
 @interface ViewController : UIViewController
 
 -(void)sayHello;
+-(void)sayByeBye;
 
 @end
 
