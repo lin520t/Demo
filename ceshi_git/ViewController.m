@@ -41,10 +41,6 @@
 
 }
 
--(void)sayHello{
-    NSLog(@"Hello");
-}
-
 -(void)drink{
     NSLog(@"drink");
 }
