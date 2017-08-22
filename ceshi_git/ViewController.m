@@ -31,8 +31,14 @@
     [self sayHello];
 }
 
+-(void)sayHello{
+    NSLog(@"Hello");
+
+}
+
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
+
 }
 
 -(void)sayHello{
@@ -46,6 +52,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    [self sayHello];
 }
-
 @end
