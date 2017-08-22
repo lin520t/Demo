@@ -41,9 +41,6 @@
 
 }
 
--(void)drink{
-    NSLog(@"drink");
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

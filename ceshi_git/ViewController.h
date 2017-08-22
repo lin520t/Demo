@@ -13,7 +13,6 @@
 
 -(void)sayHello;
 -(void)sayByeBye;
--(void)drink;
 
 @end
 
