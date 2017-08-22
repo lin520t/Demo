@@ -28,10 +28,15 @@
     NSLog(@"The result is: %d", self.num);
     
     [self sayByeBye];
+    [self sayHello];
 }
 
 -(void)sayByeBye{
     NSLog(@"Bye - Bye");
+}
+
+-(void)sayHello{
+    NSLog(@"Hello");
 }
 
 - (void)didReceiveMemoryWarning {
